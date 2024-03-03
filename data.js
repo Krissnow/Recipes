@@ -1,0 +1,71 @@
+export const dessertsRecipes = [
+  {
+    title: "Muffins",
+    mainImages: [
+      "./images/maffins1.png",
+      "./images/maffins2.png",
+      "./images/maffins3.png",
+    ],
+    ingridientsList: [
+      "2 cups all-purpose flour",
+      "3 teaspoons baking powder",
+      "½ teaspoon salt",
+      "¾ cup white sugar",
+      "1 item egg",
+      "1 cup milk",
+    ],
+    numberStep: ["Step 1", "Step 2", "Step 3", "Step 4"],
+    stepDuration: ["15-20 minut", "5-10 minut", "35-40 minut", "25-35 minut"],
+    steps: [
+      `Preheat the oven to 400 degrees F (200 degrees C). Grease a 12-cup muffin tin or line cups with paper liners.`,
+      `Stir flour, baking powder, salt, and sugar together in a large bowl; make a well in the center.`,
+      `Beat egg with a fork in a small bowl or 2-cup measuring cup; whisk in milk and oil. Pour egg mixture all at once into flour mixture; mix quickly and lightly with a fork until just moistened. The batter will be lumpy. (Fold in additional ingredients if using). Spoon batter into the prepared muffin cups, filling each 3/4 full.`,
+      `Bake in the preheated oven until tops spring back when lightly pressed.`,
+    ],
+    stepsImage: [
+      "./images/step_1_maffins.png",
+      "./images/step_2_muffins.png",
+      "./images/step_3_muffins.png",
+      "./images/step_4_muffins.png",
+    ],
+  },
+  {
+    title: "Pancakes",
+    mainImages: [
+      "./images/pancakes1.png",
+      "./images/pancakes2.png",
+      "./images/pancakes3.png",
+    ],
+    ingridientsList: [
+      "1 cup all-purpose flour",
+      "1 tablespoon white sugar",
+      "2 teaspoons baking powder",
+      "1 item egg, beaten",
+      "1 cup milk",
+      "2 tablespoons vegetable oil",
+      "2 items bananas",
+    ],
+    numberStep: ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"],
+    stepDuration: [
+      "10-15 minut",
+      "10-15 minut",
+      "20 minut",
+      "3-5 minut",
+      "3-5 minut",
+    ],
+    steps: [
+      "Combine flour, white sugar, baking powder, and salt in a bowl. Mix together egg, milk, vegetable oil, and bananas in a second bowl.",
+      "Stir flour mixture into banana mixture; batter will be slightly lumpy.",
+      "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "Cook until pancakes are golden brown, 3 to 5 minutes per side. Serve hot.",
+      "Serve hot and enjoy!",
+    ],
+    stepsImage: [
+      "./images/step_1_pancake.png",
+      "./images/step_2_pancake.png",
+      "./images/step_3_pancake.png",
+      "./images/step_4_pancake.png",
+      "./images/step_5_pancake.png",
+    ],
+  },
+];
